@@ -1,0 +1,39 @@
+<!--The header section of the page-->
+<header>
+	<nav class="top-bar round">
+	<div class="row">
+		<div class="twelve columns">
+			<div class="four columns">
+				<ul class="title-area">
+			<!--Title Area-->
+			<li class="name">
+				<h3><%= link_to "MovieMania", root_path %> </h3>
+			</li>
+		</ul>
+			</div>
+		</div>
+	</div>
+
+
+		<div class="round">
+			<section class="round top-bar-section">
+			<ul class="round right">
+				<li>
+					<%= link_to "Home", root_path %>
+				</li>
+				<li>
+					<%= link_to "Movies", movies_path %>
+				</li>
+				<li>
+					<%= link_to "Schedule", schedule_path %>
+				</li>
+			</ul>
+		</section>
+		</div>
+
+
+	</nav>
+
+<%= link_to image_tag("logo.png", :alt=> "MovieMania", :class => "round", :width => 150, :height => 100, :caption => "MovieMania"), root_path %>
+
+</header>

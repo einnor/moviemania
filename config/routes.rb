@@ -1,9 +1,9 @@
 Moviemania::Application.routes.draw do
 
-  get "/home",					:to => 'pages#home'
+  root 'pages#home'
   get "/movies",				:to => 'pages#movies'
   get "/schedule",			:to => 'pages#schedule'
-  get "/contacts"				:to => 'pages#contacts'
+  get "/contacts",			:to => 'pages#contacts'
   get "/about",					:to => 'pages#about'
   get "/help",					:to => 'pages#help'
   # The priority is based upon order of creation: first created -> highest priority.

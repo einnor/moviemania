@@ -1,0 +1,44 @@
+footer{
+	background-color: #111111;
+
+}
+
+/*Rounded corners*/
+.round{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/*Footer*/
+footer{
+text-align: center;
+}
+
+#navcontainer{
+	text-align: center;
+	float:none;
+}
+
+#navcontainer ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	display: inline;
+}
+
+#navcontainer ul li{
+	display: inline;
+	position: relative;
+}
+
+#navcontainer ul li a{
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #fff;
+}
+
+#navcontainer ul li a:hover{
+	color: #369;
+}

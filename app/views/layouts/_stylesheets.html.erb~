@@ -1,0 +1,10 @@
+<!--Bringing Internet Explorer up to speed with HTML5-->
+    <!--[if lt IE 9]>
+    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag "stylesheets/foundation-4.3.1/css/foundation.css"%>
+  <%= stylesheet_link_tag "stylesheet/custom.css" %>
+  <%= stylesheet_link_tag "stylesheet/foundation-4.3.1/normalize.css" %>

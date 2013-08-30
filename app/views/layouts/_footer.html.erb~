@@ -1,0 +1,29 @@
+<footer class="round">
+	<div class="row">
+		<div class="twelve columns">
+			<hr />
+			<div class="row">
+				<div class="six columns">
+					<p>&copy; 2013 MovieMania, Inc. All rights reserved</p>
+				</div>
+				<div class="twelve columns">
+				<div id="navcontainer">
+					<ul class="link-list right">
+						<li><%= link_to "ABOUT", about_path %></li>
+						<li><%= link_to "CONTACT US", contacts_path %></li>
+						<li><%= link_to "HELP", help_path %></li>
+						<li><%= link_to image_tag("twitter.jpg", :alt => 'twitter', :class => "round", :width => 30, :height => 30), 'https://twitter.com' %></li>
+						<li><%= link_to image_tag("facebook.png", :alt => 'facebook', :class => "round", :width => 35, :height => 35), 'https://facebook.com' %>
+					</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<p>
+		Powered by: <%= link_to "Something Goes Here ", 'https://somethinggoeshere.com/' %>
+		Developed at: <%= link_to "Something Else Goes Here", 'https://somethingelsegoeshere.com' %>
+	</p>
+
+</footer>
