@@ -1,27 +1,28 @@
 <!--The header section of the page-->
 <header>
 	<nav class="top-bar round">
-	<div class="row">
-		<div class="twelve columns">
-			<div class="four columns">
-				<ul class="title-area">
+			<ul class="title-area">
 			<!--Title Area-->
 			<li class="name">
-				<h3><%= link_to "MovieMania", root_path %> </h3>
+				<h3><%= link_to "  MovieMania", root_path %> </h3>
 			</li>
 		</ul>
-			</div>
-		</div>
-	</div>
 
 		<section class="top-bar-section">
 			<ul class="right">
+				<li class="divider"></li>
 				<li>
 					<%= link_to "Home", root_path %>
 				</li>
-				<li>
+				<li class="divider"></li>
+				<li class="has-dropdown">
 					<%= link_to "Movies", movies_path %>
+					<ul class="dropdown">
+						<li><%= link_to "Now Showing", '#' %></li>
+						<li><%= link_to "Coming Soon", '#' %></li>
+					</ul>
 				</li>
+				<li class="divider"></li>
 				<li>
 					<%= link_to "Schedule", schedule_path %>
 				</li>
@@ -30,6 +31,21 @@
 
 	</nav>
 
-<%= link_to image_tag("logo.png", :alt=> "MovieMania", :class => "round", :width => 150, :height => 100, :caption => "MovieMania"), root_path %>
+	<div class="row">
+		<div class="twelve columns">
+			<div class="four columns">
+				<%= link_to image_tag("logo.png", :alt=> "MovieMania", :class => "round", :width => 150, :height => 100, :caption => "MovieMania"), root_path %>
+				<p>
+				The home of movies. The home of movies. The home of movies.
+				</p>
+				<hr />
+			</div>
+
+
+
+
+		</div>
+	</div>
+
 
 </header>
