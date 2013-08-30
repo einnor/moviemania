@@ -1,0 +1,19 @@
+class PagesController < ApplicationController
+  def home
+  end
+
+  def movies
+  end
+
+  def schedule
+  end
+
+  def contacts
+  end
+
+  def about
+  end
+
+  def help
+  end
+end
