@@ -31,17 +31,19 @@
 
 	</nav>
 
-	<div class="row">
-		<div class="four columns">
-			<%= link_to image_tag("logo.png", :alt=> "MovieMania", :class => "round", :width => 150, :height => 100, :caption => "MovieMania"), root_path %>
-		</div>
-		<div class="six columns">
-			<div class="panel">
-				<p>Six columns</p>
-			</div>
+	<div class="row top1">
+		<div class="twelve columns top round">
+				<%= link_to image_tag("logo.png", :alt=> "MovieMania", :class => "round", :width => 150, :height => 100, :caption => "MovieMania"), root_path %>
+				<p>
+				The home of movies. The home of movies. The home of movies.
+				</p>
+				<hr />
+
+
+
+
 		</div>
 	</div>
 
-	<hr />
 
 </header>

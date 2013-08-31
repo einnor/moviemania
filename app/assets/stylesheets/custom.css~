@@ -7,8 +7,23 @@ header div p{
 	text-align: right;
 }
 
+.top1{
+	width: 100%;
+}
+
+.top{
+	background-color: #777;
+	width: 100%;
+}
+
 .container{
-	width: 710px;
+	width: 1200px;
+	padding: 10px;
+
+}
+.center{
+	margin-top: 20px;
+	text-align: center;
 }
 
 footer{

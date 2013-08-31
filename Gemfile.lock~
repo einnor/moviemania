@@ -131,7 +131,6 @@ DEPENDENCIES
   rails (= 4.0.0)
   rmagick (= 2.13.2)
   rspec-rails (~> 2.0)
-  pg
   sass-rails (~> 4.0.0)
   sdoc
   sqlite3
