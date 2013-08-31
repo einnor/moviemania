@@ -1,5 +1,5 @@
 <!--The header section of the page-->
-<header>
+<header class="round">
 	<nav class="top-bar round">
 			<ul class="title-area">
 			<!--Title Area-->
@@ -26,15 +26,24 @@
 				<li>
 					<%= link_to "Schedule", schedule_path %>
 				</li>
+				<li class="divider"></li>
+				<li><%= link_to "About", about_path %></li>
+				<li class="divider"></li>
+				<li><%= link_to "Help", help_path %></li>
+				<li class="divider"></li>
+				<li><%= link_to "Contact Us", '#' %></li>
 			</ul>
 		</section>
 
 	</nav>
 
-	<div class="row top1">
-		<div class="twelve columns top round">
+	<div class="row">
+		<div class="small-3 columns">
 				<%= link_to image_tag("logo.png", :alt=> "MovieMania", :class => "round", :width => 150, :height => 100, :caption => "MovieMania"), root_path %>
+			</div>
+			<div class="small-9 columns">
 				<p>
+
 				The home of movies. The home of movies. The home of movies.
 				</p>
 		</div>

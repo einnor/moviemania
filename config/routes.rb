@@ -6,6 +6,7 @@ Moviemania::Application.routes.draw do
   get "/contacts",			:to => 'pages#contacts'
   get "/about",					:to => 'pages#about'
   get "/help",					:to => 'pages#help'
+  get "/contactus",			:to => 'pages#contactus'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

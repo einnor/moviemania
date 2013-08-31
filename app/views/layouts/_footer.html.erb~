@@ -6,10 +6,12 @@
 				<div class="six columns">
 					<p>&copy; 2013 MovieMania, Inc. All rights reserved</p>
 				</div>
-				<div class="twelve columns">
+				<div class="six columns">
 				<div id="navcontainer">
-					<ul class="link-list right">
+					<ul class="bottomlist">
 						<li><%= link_to "ABOUT", about_path %></li>
+						<li><%= link_to "BLOG", '#'%></li>
+						<li><%= link_to "NEWS & EVENTS", '#'%></li>
 						<li><%= link_to "CONTACT US", contacts_path %></li>
 						<li><%= link_to "HELP", help_path %></li>
 						<li><%= link_to image_tag("twitter.jpg", :alt => 'twitter', :class => "round", :width => 30, :height => 30), 'https://twitter.com' %></li>

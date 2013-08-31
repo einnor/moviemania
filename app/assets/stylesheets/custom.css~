@@ -1,3 +1,8 @@
+header{
+	background-color: #999;
+
+}
+
 header div p{
 	font-font-family: Verdana, Arial, "MS Trebuchet", sans-serif;
 	font-size: 1.3em;
@@ -5,6 +10,11 @@ header div p{
 	margin: 10px;
 	float: right;
 	text-align: right;
+}
+
+header img{
+	padding: 10px;
+
 }
 
 .top1{
@@ -26,10 +36,6 @@ header div p{
 	text-align: center;
 }
 
-footer{
-	background-color: #111111;
-
-}
 
 /*Rounded corners*/
 .round{
@@ -41,6 +47,7 @@ footer{
 /*Footer*/
 footer{
 text-align: center;
+background-color: #111111;
 }
 
 #navcontainer{
@@ -64,7 +71,7 @@ text-align: center;
 #navcontainer ul li a{
 	text-decoration: none;
 	padding: .2em 1em;
-	color: #fff;
+	color: #333333;
 }
 
 #navcontainer ul li a:hover{
