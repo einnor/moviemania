@@ -1,5 +1,7 @@
 Moviemania::Application.routes.draw do
 
+	resources :admins, :only => [:new, :create, :destroy]
+
   root 'pages#home'
   get "/movies",				:to => 'pages#movies'
   get "/schedule",			:to => 'pages#schedule'
@@ -7,6 +9,11 @@ Moviemania::Application.routes.draw do
   get "/about",					:to => 'pages#about'
   get "/help",					:to => 'pages#help'
   get "/contactus",			:to => 'pages#contactus'
+
+  get "/login",						:to => 'admins#new'
+  get "/create",				:to => 'admins#create'
+  get "/logout",				:to => 'admins#destroy'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
