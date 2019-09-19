@@ -42,7 +42,7 @@ end
 
 group :development, :test do
 	gem 'rspec-rails', '~>2.0'
-	gem 'annotate', '~>2.4.0'
+	gem 'annotate', '~>2.7.5'
 end
 
 group :production do
